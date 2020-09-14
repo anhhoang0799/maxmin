@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>maxmin</title>
+</head>
+
+<body>
+    <script>
+        let number = ['1', '11', '111', '1111', '11111'];
+
+        let max = [0];
+        let min = [0];
+        for (let i = 0; i < number.length; i++) {
+            if (number[i] > max) {
+                max = number[i];
+            }
+            if (number[i] < min)
+                min = number[i]
+
+
+        }
+        alert('so lon nhat la:' + max);
+        alert('so nho nhat la:' + min);
+        
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
